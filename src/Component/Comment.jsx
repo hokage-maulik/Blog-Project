@@ -45,7 +45,7 @@ export default function Comment() {
 
   const fetchData = () => {
     axios
-      .get(`http://localhost:8005/comment/get/?postId=${postId}`)
+      .get(`https://blog-backend-smu6.onrender.com/comment/get/?postId=${postId}`)
       .then((res) => {
         setState(res.data);
       })

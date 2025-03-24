@@ -1,0 +1,23 @@
+
+
+/* Custom styles for the Post component */
+.card-body {
+    padding: 1.25rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .card-img-top {
+      height: 200px; /* Adjust image size for smaller screens */
+    }
+  }
+  
